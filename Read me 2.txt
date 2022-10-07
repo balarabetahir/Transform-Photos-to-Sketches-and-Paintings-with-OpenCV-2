@@ -1,0 +1,12 @@
+The images we will use for the task will be from the data module of the skimage library that contains standard test images. In the code cell below we will import the data module of the skimage library.
+
+
+ Smooth an Image¶
+In this task you must smooth the motorcycle image using the correct OpenCV method that you will see by running the code cell below. Set the sigma value to 5 and set the filter size to have height and width of 7
+
+
+Get the Water Painting Image of a Colored Image
+In this task you will convert a colored image to a water painting. For this task we will be using the same colored motorcycle image, motorcyle, as Task A of this Exercise. Set the sigma_s value to 7 and the sigma_r value to 2 for your final solution but also experiment with differensigma_s and sigma_r values to see how your resulting image changes.
+
+Convert a Grayscale Image to a Binary Image¶
+In this task you will convert the grayscale image of a camera man, that you will see by running the code cell below, into a binary image where every pixel is 0 or 255 by taking the threshold of the image. Set the threshold value to 85 for this task, but also try out different threshold values (such as 20, 120 etc) to see how the image changes as you adjust your threshold value.
